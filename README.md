@@ -9,17 +9,17 @@ Once I established access I pulled gaming data in the form of JSON files and pop
 
 After some cleaning and transforming I set up Postgre RDS database on the AWS dashboard. 
 
+<img width="984" alt="Screenshot 2023-02-08 at 15 58 41" src="https://user-images.githubusercontent.com/116017484/217801494-1adb85c8-1fcf-4d8e-a997-1c42962e8efe.png">
 
 I connected my code to the database with VS code and created a table that I would upload all my data to. 
 Once the table was created I populated the database with my data frame in VS code.
 
-<img width="984" alt="Screenshot 2023-02-08 at 15 58 41" src="https://user-images.githubusercontent.com/116017484/217801494-1adb85c8-1fcf-4d8e-a997-1c42962e8efe.png">
-Example of database on the AWS dashboard
 
 I then connected to the database with DBeaver which allowed me to write SQL commands to query the tabel in the cloud
 
 <img width="545" alt="Screenshot 2023-02-08 at 16 00 04" src="https://user-images.githubusercontent.com/116017484/217801320-404b315c-19e6-4e8e-9b42-0e7a111ded10.png">
 Example of a query in DBeaver
+
 
 I also made some visuals of the data with plotly.express:
 
